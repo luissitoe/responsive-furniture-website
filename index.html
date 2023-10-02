@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Furniture Website</title>
+    <!--=================== Google Fonts ====================-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+    <!--=================== Remixicons ====================-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!--=================== Main css ====================-->
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+
+    <!--==================== header ====================-->
+    <header id="header" class="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__brand">
+                Furni<span>.</span>
+            </a>
+            <div id="nav-menu" class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a class="nav__link nav__link--active" href="#home">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#service">Services</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#about">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#product">Products</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#blog">Blog</a>
+                    </li>
+                </ul>
+                <span id="nav-close" class="nav__close">
+                    <i class="ri-close-line"></i>
+                </span>
+            </div>
+            <div class="nav__icons">
+                <div class="nav__shop nav__icon">
+                    <i class="ri-shopping-basket-fill"></i>
+                    <span class="nav__shop-number">2</span>
+                </div>
+                <span id="nav-open" class="nav__open nav__icon">
+                    <i class="ri-menu-5-line"></i>
+                </span>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <!--==================== home ====================-->
+        <section id="home" class="home">
+            <div class="d-grid home__wrapper container">
+                <div class="home__content">
+                    <h1 class="home__title">Minimalist Interior Design</h1>
+                    <p class="home__description">Minimalist interior design is more than just a trend; it's a timeless
+                        approach that celebrates the essence of
+                        simplicity, elegance, and functionality. It's about creating spaces that are uncluttered,
+                        serene, and thoughtfully
+                        designed to enhance your daily life.</p>
+                    <a href="#" class="btn btn--primary">Shop Now</a>
+                </div>
+                <img src="assets/img/home.jpg" alt="" class="home__img">
+            </div>
+        </section>
+        <!--==================== services ====================-->
+        <section id="service" class="service section">
+            <div class="section__header container">
+                <h2 class="section__title">Benefits when using<br> our services</h2>
+            </div>
+            <div class="d-grid service__wrapper container">
+                <!--========= service item 1 ============-->
+                <div class="service__item">
+                    <div class="service__icon">
+                        <i class="ri-medal-line"></i>
+                    </div>
+                    <h3 class="service__title">Best Quality</h3>
+                    <p class="service__description">Our furniture is crafted with the utmost precision and care, using
+                        the finest materials to guarantee durability, style,
+                        and functionality</p>
+                </div>
+                <!--========= service item 2 ============-->
+                <div class="service__item">
+                    <div class="service__icon"><i class="ri-shield-check-line"></i></div>
+                    <h3 class="service__title">Warranty</h3>
+                    <p class="service__description">We stand behind the quality of our products. That's why we offer
+                        comprehensive warranties on our furniture</p>
+                </div>
+                <!--========= service item 3 ============-->
+                <div class="service__item">
+                    <div class="service__icon"><i class="ri-shopping-bag-line"></i></div>
+                    <h3 class="service__title">Easy to Shop</h3>
+                    <p class="service__description">Shopping for furniture should be a breeze, and at Furni, it is! Our
+                        user-friendly website makes it easy to browse</p>
+                </div>
+                <!--========= service item 4 ============-->
+                <div class="service__item">
+                    <div class="service__icon"><i class="ri-car-line"></i></div>
+                    <h3 class="service__title">Free Shipping</h3>
+                    <p class="service__description">We understand that shipping costs can add up, which is why we offer
+                        free shipping on all order</p>
+                </div>
+            </div>
+        </section>
+        <!--==================== about ====================-->
+        <section id="about" class="about section">
+            <div class="d-grid about__wrapper container">
+                <img class="about__img" src="assets/img/about.jpg" alt="">
+                <div class="about__content">
+                    <h2 class="about__title">We help you make modern interior design</h2>
+                    <p class="about__description">We're dedicated to exceeding your expectations in every way possible.
+                        Explore our collection today and elevate your home
+                        with the best quality furniture backed by warranties, easy shopping, and free shipping.</p>
+
+                    <a href="#" class="btn btn--primary">Explore</a>
+                </div>
+            </div>
+        </section>
+        <!--==================== products ====================-->
+        <section id="product" class="product section">
+            <div class="section__header container">
+                <h2 class="section__title">Latest Products</h2>
+            </div>
+            <div class="d-grid product__wrapper container">
+                <!--============== product item 1 ==============-->
+                <div class="product__item">
+                    <div class="product__img-wrapper">
+                        <img src="assets/img/product1.jpg" alt="" class="product__img">
+                    </div>
+                    <h3 class="product__name">Gold Mirror</h3>
+                    <p class="product__price">$42.50</p>
+                </div>
+                <!--============== product item 2 ==============-->
+                <div class="product__item">
+                    <div class="product__img-wrapper">
+                        <img src="assets/img/product2.jpg" alt="Minimalist Chair" class="product__img">
+                    </div>
+                    <h3 class="product__name">Minimalist Chair</h3>
+                    <p class="product__price">$58.50</p>
+                </div>
+                <!--============== product item 3 ==============-->
+                <div class="product__item">
+                    <div class="product__img-wrapper">
+                        <img src="assets/img/product3.jpg" alt="Bedroom Desk" class="product__img">
+                    </div>
+                    <h3 class="product__name">Bedroom Desk</h3>
+                    <p class="product__price">$62.30</p>
+                </div>
+                <!--============== product item 4 ==============-->
+                <div class="product__item">
+                    <div class="product__img-wrapper">
+                        <img src="assets/img/product4.jpg" alt="Wooden Vases" class="product__img">
+                    </div>
+                    <h3 class="product__name">Wooden Vases</h3>
+                    <p class="product__price">$72.99</p>
+                </div>
+                <!--============== product item 5 ==============-->
+                <div class="product__item">
+                    <div class="product__img-wrapper">
+                        <img src="assets/img/product5.jpg" alt="Smart Lamp" class="product__img">
+                    </div>
+                    <h3 class="product__name">Smart Lamp</h3>
+                    <p class="product__price">$54.99</p>
+                </div>
+                <!--============== product item 6 ==============-->
+                <div class="product__item">
+                    <div class="product__img-wrapper">
+                        <img src="assets/img/product6.jpg" alt="Office Chair" class="product__img">
+                    </div>
+                    <h3 class="product__name">Office Chair</h3>
+                    <p class="product__price">$89.99</p>
+                </div>
+            </div>
+        </section>
+        <!--==================== blog ====================-->
+        <section id="blog" class="blog section">
+            <div class="section__header container">
+                <h2 class="section__title">Recent Posts</h2>
+            </div>
+            <div class="d-grid blog__wrapper container">
+                <!--================ blog item 1 ============-->
+                <div class="blog__item">
+                    <img src="assets/img/blog1.jpg" alt="" class="blog__img">
+                    <h3 class="blog__title">How to make your interiors more stylish and modern</h3>
+                    <p class="blog__date">
+                        <span>by Janet Watson</span>on Friday, 29 September 2023
+                    </p>
+                </div>
+                <!--================ blog item 2 ============-->
+                <div class="blog__item">
+                    <img src="assets/img/blog2.jpg" alt="" class="blog__img">
+                    <h3 class="blog__title">Tips to give your home minimalistic vibes</h3>
+                    <p class="blog__date">
+                        <span>by Daniel Robinson</span>on Monday, 18 September 2023
+                    </p>
+                </div>
+                <!--================ blog item 3 ============-->
+                <div class="blog__item">
+                    <img src="assets/img/blog3.jpg" alt="" class="blog__img">
+                    <h3 class="blog__title">Elements to add character to your space</h3>
+                    <p class="blog__date">
+                        <span>by Sophia White</span>on Thursday, 31 August 2023
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!--==================== newsletter ====================-->
+        <section class="newsletter section">
+            <div class="newsletter__header container">
+                <span class="newsletter__icon">
+                    <i class="ri-mail-line"></i>
+                </span>
+                <h2 class="newsletter__title">Subscribe to our Newsletter</h2>
+            </div>
+            <div class="d-grid newsletter__wrapper container">
+                <form class="newsletter__form">
+                    <input type="text" class="newsletter__input" placeholder="Enter your name" required>
+                    <input type="email" class="newsletter__input" placeholder="Enter your email" required>
+                    <button class="btn btn--primary">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <!--==================== footer ====================-->
+    <footer class="footer">
+        <div class="d-grid footer__wrapper container">
+            <div class="footer__content">
+                <h4 class="footer__title">Furni</h4>
+                <p class="footer__description">We are committed to providing you with the finest furniture shopping
+                    experience. We understand that quality, warranty,
+                    convenience, and affordability are essential to our valued customers</p>
+            </div>
+            <div class="footer__content">
+                <h4 class="footer__title">Products</h4>
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Featured</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Best Selling</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Office</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Home Decor</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__content">
+                <h4 class="footer__title">Company</h4>
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Contact Us</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Pricing</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Blog</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Privacy Policy</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__content">
+                <h4 class="footer__title">Follow Us</h4>
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Facebook</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Instagram</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Twitter</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <p class="footer__copyright container">
+            Copyright © 2023. All Rights Reserved. - Designed by Luis
+        </p>
+    </footer>
+
+    <!--=================== ScrollReveal ====================-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--=================== Main ====================-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
